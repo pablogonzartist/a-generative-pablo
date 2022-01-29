@@ -1,0 +1,42 @@
+html {
+height: 100%;
+max-width: 100%;
+background: radial-gradient(circle, #ffffff 2%, #004157 98%);
+background-size: 500% 500%;
+animation: change 60s ease-in-out infinite;
+}
+
+@font-face {
+    font-family: 'klarheit_groteskregular';
+    src: url('fonts/klarheitgrotesk-regular-webfont.woff2') format('woff2'),
+         url('fonts/klarheitgrotesk-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    text-align: center;
+    font-family: 'helvetica';
+    color: white;
+}
+
+.description {
+    margin: 4em;
+    margin-left: 5em;
+}
+
+
+
+/* animation */
+@keyframes change {
+    0% {
+    background-position: 0 50%;
+  }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0 50%;
+  
+      } }
