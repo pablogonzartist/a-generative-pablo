@@ -26,6 +26,18 @@ body {
     margin-left: 5em;
 }
 
+ul {
+  list-style-type: none;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  padding: 30px 40px;
+}
+
 
 
 /* animation */
