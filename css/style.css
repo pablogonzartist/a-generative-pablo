@@ -7,17 +7,17 @@ animation: change 60s ease-in-out infinite;
 }
 
 @font-face {
-    font-family: 'klarheit_groteskregular';
-    src: url('fonts/klarheitgrotesk-regular-webfont.woff2') format('woff2'),
-         url('fonts/klarheitgrotesk-regular-webfont.woff') format('woff');
+    font-family: 'KlarheitGrotesk';
+    src: url('fonts/KlarheitGrotesk-Regular.otf') format('otf');
     font-weight: normal;
     font-style: normal;
 
 }
 
+
 body {
     text-align: center;
-    font-family: 'helvetica';
+    font-family: 'helveticaneue-light';
     color: white;
 }
 
