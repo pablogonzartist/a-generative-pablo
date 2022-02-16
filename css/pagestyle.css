@@ -17,6 +17,8 @@ li {
 
 a{
     text-decoration: none;
+    animation: fadeOutUp;
+    animation-duration: 2s;
 }
 
 .back a{
