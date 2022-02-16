@@ -17,6 +17,7 @@ html {
 
       body {
           font-family: Everett;
+          color: white;
       }
       
        /*ellipse */
@@ -26,7 +27,7 @@ html {
    
     margin: .15em;
     
-    border: 3px solid #000000;
+    border: 3px solid #ffffff;
     border-radius: 50%;
     /*text*/
     display: flex;
@@ -44,6 +45,6 @@ html {
 }
 
 a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
