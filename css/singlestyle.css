@@ -39,8 +39,9 @@ html {
     }
 
 .ellipse:hover {
-    animation: fadeOutUp;
-    animation-duration: 2s;
+    animation: fadeOutUpBig;
+    
+    animation-duration: .1s;
     
 }
 
