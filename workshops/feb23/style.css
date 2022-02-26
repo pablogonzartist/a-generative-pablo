@@ -1,0 +1,33 @@
+html {
+    height: 100%;
+    max-width: 100%;
+    background-size: 500% 500%;
+    background: white;
+    animation: change 60s ease-in-out infinite;
+    }
+
+     @font-face {
+        font-family: 'Fit';
+        src: url('fonts/Fit-Regular.woff2') format('woff2'),
+            url('fonts/Fit-Regular.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+.clock {
+    font-family: fit;
+    font-size: 43em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.clock:hover { 
+
+color: red;
+background: black;
+height: 100%;
+
+
+}
